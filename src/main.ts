@@ -9,7 +9,7 @@ async function bootstrap() {
   app.enableCors({
     origin: [
       'http://localhost:5173',        // frontend local Vite
-      'user-registration-frontend-self.vercel.app',
+      'https://user-registration-frontend-self.vercel.app',
     ],
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
     allowedHeaders: ['Content-Type', 'Authorization'],
